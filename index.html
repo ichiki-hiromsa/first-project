@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="tutorilal.css">
+    <!-- スライダーライブラリ -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.1/css/swiper.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.1/js/swiper.min.js"></script>
+    <!-- <link rel="stylesheet" href=".js/slider.js"> -->
+    <script>
+      window.addEventListener('DOMContentLoaded', (event) => {
+        var mySwiper = new Swiper ('.swiper-container', {
+          // effect: "flip",
+          loop: true,
+          pagination: '.swiper-pagination',
+          nextButton: '.swiper-button-next',
+          prevButton: '.swiper-button-prev',
+        })      
+      });
+    </script>
+    <!-- スライダーライブラリ --> 
+    <title>copy_tanaka</title>
+  </head>
+  <body link=black class="body">
+  <!-- ヘッダー -->
+    <header class="header_content">
+      <h1></h1>
+      <ul class = "grid">
+        <li class="flex-center" id="logo"><img src="./images/tanaka_logo.png" alt="logo"></li>
+        <li class="flex-center" id="about"><a href="menu01.html">串カツ田中について</a></li>
+        <li class="flex-center" id="_menu"><a href="menu02.html">メニュー</a></li>
+        <li class="flex-center" id="info"><a href="menu02.html">おしらせ</a></li>
+        <li class="flex-center" id="for_child"><a href="menu02.html">お子様向けサービス</a></li>
+        <li class="flex-center" id="kodawari"><a href="menu02.html">こだわり・安心安全</a></li>
+        <li class="flex-center" id="saiyou"><a href="menu02.html">採用情報</a></li>
+        <li class="flex-center" id="navi"><img src="./images/nav_delivery.png" alt="nav_delivery" id="navi_img"></li>
+        <li class="flex-center" id="bt_search"><img src="./images/bt_search.png" alt="bt_search" id="bt_search_img"></li>
+      </ul>
+    </header>
+  <!-- スライドショー-->
+    <div class="swiper-container">
+      <div class="swiper-wrapper flex-center">
+        <div class="swiper-slide">
+            <img src="./images/brand.jpg" alt="brand">
+        </div>
+        <div class="swiper-slide">
+            <img src="./images/こだわりLPバナー.jpg" alt="こだわりLPバナー">
+        </div>
+        <div class="swiper-slide">
+            <img src="./images/ハッピーアワー_750×430.jpg" alt="ハッピーアワー">
+        </div>
+      </div>
+      <!-- If we need pagination -->
+      <div class="swiper-pagination"></div>
+      
+      <!-- If we need navigation buttons -->
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+    </div>
+  <!-- 店舗検索 -->
+  <div class="search_store_content flex-center">
+    <section class="search_store_sec">
+      <img src="./images/ttl_search.png" alt="ttl_searc" id="ttl_search_img">
+      <h2 class="flex-left" id="ttl_search_head">お近くの串カツ田中を検索できます。</h2>
+      <img src="./images/bt_search_large.png" alt="bt_search_large" id="bt_search_large_img">
+      <img src="./images/map.png" alt="map" id="map_img">
+    </section>
+  </div>
+  <!-- メニュー（三カラム） -->
+  <div class="menu_content">
+      <img src="./images/ttl_menu.png" alt="ttl_menu" id="ttl_menu_img">
+      <div class="menu_items flex-center">
+        <div class="kushikatsu_item flex-center">
+          <img src="./images/menu_kushikatsu.png" alt="kushikatsu_img" id="kushikatsu_img">
+          <p class="flex-center" id="kushikatsu_comment">ソースの二度づけ禁止の名物串カツ、     <br>
+            大阪伝統の味。</p>
+        </div>
+        <div class="party_item flex-center">
+          <img src="./images/menu_party.png" alt="party_img" id="party_img">
+          <p class="flex-center" id="party_comment">色々なシーンに利用できる<br>
+            お得な宴会コースをご用意。</p>
+        </div>
+        <div class="drink_item flex-center">
+            <img src="./images/menu_drink.png" alt="drink_img" id="drink_img">
+            <p class="flex-center" id="drink_comment">串カツに合うお酒を<br>
+              取り揃えています。</p>
+        </div>      
+      </div>
+  </div>
+  <!-- リンク（三） -->
+  <div class="ba_content">
+      <div class="ba_items flex-center">
+        <div class="ba_about_tanaka_item flex-center">
+            <img src="./images/ba_abouttanaka.png" alt="ba_about_tanaka" id="ba_about_tanaka_img">
+            <a class="flex-center" id="ba_about_tanaka_url" href="menu01.html">串カツ田中について</a>
+            <p class="flex-center" id="ba_about_tanaka_comment">串カツ田中の味は、大阪の西成区で<br>
+                そのレシピが誕生しました。</p>
+        </div>
+        <div class="ba3_item flex-center">
+          <img src="./images/banner3.png" alt="ba3_img" id="ba3_img">
+          <a class="flex-center" id="ba3_url" href="menu01.html">食べ放題常設コースもあります！</a>
+          <p class="flex-center" id="ba3_comment">食べ放題(平日18時までのご来店限定)、<br>
+              宴会コースご予約受付中！</p>
+        </div>
+        <div class="ba_kids_item flex-center">
+            <img src="./images/ba_kids.png" alt="ba_kids_img" id="ba_kids_img">
+            <a class="flex-center" id="ba_kids_url" href="menu01.html">お子様向けサービス</a>
+            <p class="flex-center" id="ba_kids_comment">串カツ田中には、お子様・ご家族連れで<br>
+                お楽しみ頂けるメニューもたくさんございます。</p>
+        </div>      
+      </div>
+  </div>
+  <!-- お知らせ -->
+    <div class="info_content">
+      <!-- 左の塊 -->
+      <div class="info_left_inner flex-center">
+        <img  src="./images/ttl_campaign.png" alt="camp_info_img" id="camp_info_img">
+        <div class="info_l1_innner flex-center">
+          <img class="flex-center" src="./images/item_info.png" alt="item_info_l1_img" id="item_info_l1_img">
+          <p class="flex-center" id="date_l1">2020/08/25</p>
+           <a id="info_l1_link" href="menu01.html">2020年秋の新メニュースタート！9月1日～</a>
+        </div>
+        <div class="info_l2_innner">
+            <img  src="./images/camp.png" alt="item_info_l2_img" id="item_info_l2_img">
+            <p id="date_l2">2020/08/25</p>
+            <a id="info_l2_link" href="menu01.html">串カツ田中 8月プレミアムフライデー！！ 15時OPEN×串カツほ<br>ぼ全品100円！テイクアウトも100円！！</a>
+        </div>
+        <div class="info_l3_innner">
+            <img  src="./images/info.PNG" alt="item_info_l3_img" id="item_info_l3_img">
+            <p id="date_l3">2020/08/25</p>
+            <a id="info_l3_link" href="menu01.html">xxxxxx</a>
+        </div>
+        <div class="info_l4_innner">
+            <img  src="./images/camp.png" alt="item_info_l4_img" id="item_info_l4_img">
+            <p id="date_l4">2020/08/25</p>
+            <a id="info_l4_link" href="menu01.html">xxxxxx</a>
+        </div>
+      </div>   
+      <!-- 右の塊 -->
+      <div class="info_right_inner flex-center">
+          <img  src="./images/ttl_shop.png" alt="shop_info_img" id="shop_info_img">
+          <div class="info_r1_innner">
+            <img  src="./images/store_info.PNG" alt="item_info_r1_img" id="item_info_r1_img">
+            <p id="date_r1">2020/08/25</p>
+            <a id="info_r1_link" href="menu01.html">xxxxxx</a>
+          </div>
+          <div class="info_r2_innner">
+            <img  src="./images/store_info.PNG" alt="item_info_r2_img" id="item_info_r2_img">
+            <p id="date_r2">2020/08/25</p>
+            <a id="info_r2_link" href="menu01.html">xxxxxx</a>
+          </div>
+          <div class="info_r3_innner">
+            <img  src="./images/store_info.PNG" alt="item_info_r3_img" id="item_info_r3_img">
+            <p id="date_r3">2020/08/25</p>
+            <a id="info_r3_link" href="menu01.html">xxxxxx</a>
+          </div>
+          <div class="info_r4_innner">
+            <img  src="./images/store_info.PNG" alt="item_info_r4_img" id="item_info_r4_img">
+            <p id="date_r4">2020/08/25</p>
+            <a id="info_r4_link" href="menu01.html">xxxxxx</a>
+          </div>
+      </div>
+    </div>
+  <!-- フッター -->
+    <footer class="footer_content flex-center">
+      <div class="footer_link_items flex-center">
+          <!-- 左2*4 -->
+        <div class="footer_links_left">
+          <a id="footer_l1_link" href="menu01.html">串カツ田中について</a>
+          <a id="footer_l2_link" href="menu01.html">店舗検索</a>
+          <a id="footer_l3_link" href="menu01.html">メニュー</a>
+          <a id="footer_l4_link" href="menu01.html">お知らせ</a>
+        </div>
+        <div class="footer_links_right">
+          <a id="footer_r1_link" href="menu01.html">お子様</a>
+          <a id="footer_r2_link" href="menu01.html">採用</a>
+          <a id="footer_r3_link" href="menu01.html">お問い合わせ</a>
+          <a id="footer_r4_link" href="menu01.html">串カツ田中ホールディングス</a>
+        </div>
+        <img  src="./images/ba_recruite.png" alt="ba_recruite" id="ba_recruite_img">
+        <img  src="./images/ba_fc.png" alt="ba_fc" id="ba_fc_img">
+        <img  src="./images/ba_barrierfree.png" alt="ba_barrierfree" id="ba_barrierfree_img">
+        <img  src="./images/pokeo.png" alt="pokeo_img" id="pokeo_img">
+      </div>
+      <div class="footer_icons flex-center">
+          <img  src="./images/footer_logo.png" alt="footer_logo" id="footer_logo_img">
+          <img  src="./images/ico_twitter.png" alt="ico_twitter_logo" id="ico_twitter_img">
+          <img  src="./images/ico_facebook.png" alt="ico_facebook_logo" id="ico_facebook_img">
+          <img  src="./images/ico_instagram.png" alt="ico_instagram_logo" id="ico_instagram_img">
+      </div>
+      <!-- 著作権 -->
+      <div class="copyright_content">
+        <p id="copyright_text">Copyright© 串カツ田中 / KUSHIKATSU TANAKA All Rights Reserved.</p>
+        <img  src="./images/lang-jp.png" alt="lang-jp" id="lang-jp_img">
+        <img  src="./images/lang-en.png" alt="lang-en" id="lang-en_img">      
+      </div>
+    </footer>
+  </body>
+</html>
